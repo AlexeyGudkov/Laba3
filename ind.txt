@@ -1,0 +1,42 @@
+echo off
+            rem create Gudkov
+md Gudkov
+            rem go to into Gudkov
+cd Gudkov
+md Alexey
+cd Alexey
+md Alexeevi4
+            rem this need for pause of programm
+cd ..
+cd ..
+pause
+
+echo off
+            rem go to into Gudkov
+cd Gudkov
+            rem create file
+echo > 13101998.txt
+            rem go to into Alexey
+cd Alexey
+            rem go to into Alexeevi4
+cd Alexeevi4
+            rem create file
+echo > MoyKomputer.txt
+cd ..
+cd ..
+cd ..
+pause
+
+echo off
+del Gudkov /S /Q /F
+pause
+
+echo off
+cd Gudkov
+cd Alexey
+rd Alexeevi4
+cd ..
+rd Alexey
+cd ..
+rd Gudkov
+pause
